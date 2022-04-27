@@ -1,6 +1,7 @@
 import {useState} from 'react';
 // import {Link} from 'react-scroll';
 import logo from '../images/logo1.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -23,10 +24,18 @@ const Navbar = () => {
        <span className='nav-icon'></span>
      </label>
      <ul className="menu">
-       <li>Home</li>
-       <li>Products</li>
-       <li>About</li>
-       <li>Contact</li>
+       <li>
+         <Link to='/'>Home</Link>
+       </li>
+       <li>
+         <Link to='/products'>Products</Link>
+       </li>
+       <li>
+         <Link to='/about'>About</Link>
+       </li>
+       <li>
+         <Link to='/contact'>Contact</Link>
+       </li>
      </ul>
     </nav>
   );

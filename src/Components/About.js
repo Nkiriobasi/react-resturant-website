@@ -1,9 +1,11 @@
 import aboutimage from '../images/about.png';
+import Navbar from './Navbar';
 
 
 const About = () => {
     return (
         <div id="about">
+            <Navbar/>
             <div className="about-text">
       	        <h1>UPCOMING EVENT</h1>
       	        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eum

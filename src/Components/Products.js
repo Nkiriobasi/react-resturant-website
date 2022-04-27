@@ -1,10 +1,12 @@
 import Productbox from './Productbox';
 import pimage1 from '../images/s1.png';
 import pimage2 from '../images/s2.png';
+import Navbar from './Navbar';
 
 const Products = () => {
   return (
   	<div id="products">
+      <Navbar/>
   		<h1>CHOOSE & ENJOY</h1>
   		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis maxine venian
   		   voluptate, quis nostrum aliquid!</p>

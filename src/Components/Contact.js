@@ -1,8 +1,9 @@
-
+import Navbar from './Navbar';
 
 const Contact = () => {
     return (
         <div id="contact">
+            <Navbar/>
             <h1>BOOK YOUR TABLE</h1>
             <form>
             	<input type="text" placeholder="Full Name" />
